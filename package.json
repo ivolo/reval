@@ -1,0 +1,23 @@
+{
+  "author": "Ilya Volodarsky <ilya@segment.io>",
+  "name": "reval",
+  "description": "Redis EVAL helpers for the node.js redis client",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "~0.6.11"
+  },
+  "dependencies": {
+        "redis": "*",
+        "underscore": "*",
+        "async": "*",
+        "sha1": "*"
+    },
+  "devDependencies": {
+        "mocha": "*"
+    },
+  "optionalDependencies": {}
+}
